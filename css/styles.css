@@ -3,6 +3,22 @@
     margin: 0;
 }
 
+nav {
+    text-align: center;
+    border-bottom: 2px solid #000000 ;
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    padding: 1em;
+    color: darkred;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
 body {
     margin: 0 auto;
     width: 60%;

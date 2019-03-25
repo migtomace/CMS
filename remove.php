@@ -3,17 +3,6 @@
 include "includes/header.php";
 include "includes/connect.php";
 
-if (isset($_POST['submit'])){
-    include "includes/create.php";
-}
-if (isset($_POST['edit'])){
-    include "includes/update.php";
-}
-if (isset($_POST['delete'])){
-    include "includes/delete.php";
-}
-
-
 
 $sql = "SELECT * FROM post";
 if(! $conn ) {
@@ -31,7 +20,7 @@ if ($resultCheck > 0) {
 
         <main>
 
-            <form action="edit.php" method="post">
+            <form action="view.php" method="post">
 
                 <div class="title">
                     <header><?=$title?></header>
@@ -43,7 +32,7 @@ if ($resultCheck > 0) {
                 </div>
 
                 <div>
-                    <input type="submit" value="Edit">
+                    <input type="submit" value="Delete" name="delete">
                 </div>
 
             </form>

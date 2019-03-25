@@ -13,5 +13,5 @@
 <nav>
     <a href="index.php">New Post</a>
     <a href="view.php">View/Edit Post</a>
-    <a href="view.php">Delete Post</a>
+    <a href="remove.php">Delete Post</a>
 </nav>
