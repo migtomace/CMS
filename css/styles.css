@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 60%;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    font-size: 4em;
+    color: darkred;
+}
+
+input, textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+
+}
+
+input::placeholder, textarea::placeholder {
+    font-size: 1.25em;
+    font-family: sans-serif;
+}
+
+main div {
+    display: flex;
+}
+
+label {
+    font-size: 2em;
+    flex: 1;
+}
+
+input, textarea {
+    flex: 1;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 150px;
+    color: darkred;
+    font-weight: bold;
+    background: white;
+    margin: 2em 4em;
+    box-shadow: 2px 4px 4px #000;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    color: white;
+    background: darkred;
+    box-shadow: inset 2px 4px 4px #000;
+}
