@@ -32,6 +32,10 @@ header {
     color: darkred;
 }
 
+main {
+    padding: 0 2em;
+}
+
 input, textarea {
     margin-bottom: 1em;
     padding: 0.5em;
